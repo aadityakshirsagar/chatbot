@@ -1,0 +1,175 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Chatter| Login</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link href="static/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/arial.js"></script>
+<script type="text/javascript" src="js/cuf_run.js"></script>
+<meta charset="UTF-8">
+  <title>Sign-Up/Login Form</title>
+  <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,300,600' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  
+      <link rel="stylesheet" href="static/css/style.css">
+
+</head>
+<body>
+
+<div class="main">
+  <div class="header">
+    <div class="header_resize">
+      <div class="logo">
+        <h1><a href="index.html"><span>Chatter</span>Bot<br /></a></h1>
+      </div>
+      
+     
+      <div class="menu">
+        <ul>
+          <li><a href="/"><span>Home</span></a></li>
+          <li><a href="#" class="active"><span>Login</span></a></li>
+          <li><a href="/about"><span>About Us</span></a></li>
+          <li><a href="/contact"><span>Contact Us</span></a></li>
+        </ul>
+      </div>
+<!--
+     {% with messages = get_flashed_messages(with_categories=true) %}
+                {% if messages %}
+                    <ul class=flashes>
+                    {% for category, message in messages %}
+                        <li class="{{ category }}">{{ message }}</li>
+                    {% endfor %}
+                    </ul>
+                {% endif %}
+            {% endwith %}-->
+    <div class="headert_text_resize"> <img src="static/images/img_main.jpg" alt="" width="970" height="338" /> </div>
+    
+  </div>
+   <div class="body">
+    <div class="body_resize">
+      <div class="left">
+	   <div class="form">
+      
+      <ul class="tab-group">
+        <li class="tab active"><a href="#signup">Sign Up</a></li>
+        <li class="tab"><a href="#login">Log In</a></li>
+      </ul>
+      
+      <div class="tab-content">
+        <div id="signup">   
+
+          
+          <form action="/register" method="post">
+          
+          <div class="top-row">
+            <div class="field-wrap">
+              <label>
+                First Name<span class="req">*</span>
+              </label>
+              <input type="text" required autocomplete="off" name="first_name" value="{{ request.form['first_name'] }}" />
+            </div>
+        
+            <div class="field-wrap">
+              <label>
+                Last Name<span class="req">*</span>
+              </label>
+              <input type="text"required autocomplete="off" name="last_name" value="{{ request.form['last_name'] }}"/>
+            </div>
+          </div>
+
+          <div class="field-wrap">
+            <label>
+              Email Address<span class="req">*</span>
+            </label>
+            <input type="email"required autocomplete="off" name="email" value="{{ request.form['email'] }}"/>
+          </div>
+          
+          <div class="field-wrap">
+            <label>
+              Set A Password<span class="req">*</span>
+            </label>
+            <input type="password"required autocomplete="off" name="password" value="{{ request.form['password'] }}"/>
+          </div>
+	<div class="field-wrap">
+            <label>
+              Confirm Password<span class="req">*</span>
+            </label>
+            <input type="password"required autocomplete="off" name="confirm_password" value="{{ request.form['confirm_password'] }}"/>
+          </div>
+          
+          <button type="submit" class="button button-block"/>Get Started</button>
+          
+          </form>
+
+        </div>
+        
+        <div id="login">   
+          <h1>Welcome Back!</h1>
+          
+          <form action="/login" method="post">
+          
+            <div class="field-wrap">
+            <label>
+              Email Address<span class="req">*</span>
+            </label>
+            <input type="email" name="email" required autocomplete="off"/>
+          </div>
+          
+          <div class="field-wrap">
+            <label>
+              Password<span class="req">*</span>
+            </label>
+            <input type="password" name="password" required autocomplete="off"/>
+          </div>
+         
+          
+          <button class="button button-block"/>Log In</button>
+          
+          </form>
+
+        </div>
+        
+      </div><!-- tab-content -->
+      
+</div> <!-- /form -->
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+  
+
+    <script  src="static/js1/index.js"></script>
+
+
+
+
+       </div>
+     <div class="right">
+     
+        <img src="static/images/logo.jpg" alt="" width="220" height="320" />
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="FBG">
+    <div class="FBG_resize">
+            <h2>Contact Info </h2>
+        <p><strong>Phone</strong>: +1234567<br />
+          <strong>Address</strong>: 123 pune india <br />
+          <strong>E-mail:</strong> srchatterbot@gmail.com<br />
+          </p>
+      </div>
+     
+      <div class="blok">
+      
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer_resize">
+      <p class="lf">&copy; Copyright <a href="#">ChatterBot2018</a>.</p>
+     
+    </div>
+    
+</div>
+</body>
+</html>

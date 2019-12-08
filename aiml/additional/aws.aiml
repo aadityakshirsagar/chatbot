@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="ISO-8859-1"?> 
+<aiml>
+<category><pattern>WHAT IS STUDENT LOGIN</pattern><template> A student portal is a commonly used phrase to describe the login page where students can provide a user name and password to gain access to an education organization's programs and other learning related materials</template></category>
+<category><pattern>WHAT IS TG LOGIN</pattern><template> Teacher Guardian is portal where teachers can provide a user name and password to gain access to an education organization's programs and other learning related materials regarding student information and other college updates</template></category>
+<category><pattern>WHAT IS HOD LOGIN</pattern><template>HEAD OF THE DEPARTMENT is describe the login page where HODs can provide a user name and password to gain access to an education organization's programs and other learning related materials regarding teachers,student and college updates.  </template></category>
+<category><pattern>WHAT IS STUDENT REGISTRATION</pattern><template> Registration is the systematic process that reserves seats in particular classes for eligible students. ... Enrollment is the completion of the registration process, and affords the full rights and privileges of student status.</template></category>
+<category><pattern>WHY AADHAR CARD IS REQUIRED</pattern><template>The Union government now wants to make Aadhaar card mandatory for filing income tax returns as well as applying for a PAN card. In fact, the unique identification 12-digit number in your Aadhaar card is now becoming the one point source for all your needs as well as in student registration UID is necessary for registration even in scholorship regarding information  </template></category>
+<category><pattern>WHAT IF TG REJECT MY FORM</pattern><template> there are many valid reasons because of which your form might get rejected.. your photo/signature might not be in the specified format. incomplete/wrong information. problem with the uploaded documents. not paying the fees obviously.please contact your TG for more information</template></category>
+<category><pattern>WHAT IF HOD REJECT MY FORM</pattern><template> there are many valid reasons because of which your form might get rejected.. your photo/signature might not be in the specified format. incomplete/wrong information. problem with the uploaded documents. not paying the fees obviously.please contact your TG for more information</template></category>
+<category><pattern>WHAT DO I DO AFTER REGISTATION</pattern><template>after the registration wait for the TG aproval and then you can fill the information for the registration form </template></category>
+<category><pattern>WHAT DO I DO AGTER TG APROVAL</pattern><template> you can proceed for the student registration form</template></category>
+<category><pattern>WHAT IS PAN</pattern><template>pan is stand for permanent account number.This is mandatory for income tax </template></category>
+<category><pattern>DHOLE PATIL COLLEGE OF ENGINEERING</pattern><template> 
+Dhole Patil College of Engineering, DPCOE, Pune, is an engineering college affiliated to the University of Pune, Pune. NAAC- A+ Grade (3.38CGPA) Established in 2008 by Sagar U. Dhole Patil is a part of Dhole Patil Education Society, DPES. It is the first college in Pune to offer Undergraduate engineering degrees in Automobile Engineering. Located in natural surroundings in Wagholi.
+DPES Approved by A.I.CT.E New Delhi, Govt of Maharashtra and Affiliated to Savitribai Phule Pune University.
+Top engineering college in Pune.
+Dhole Patil College of engineering.
+The best engineering college among the colleges in university with placements.</template></category>
+<category><pattern>DPES</pattern><template>DPES Approved by A.I.CT.E New Delhi, Govt of Maharashtra and Affiliated to Savitribai Phule Pune University.Dhole Patil College of Engineering, DPCOE, Pune, is an engineering college affiliated to the University of Pune, Pune. NAAC- A+ Grade (3.38CGPA) Established in 2008 by Sagar U. Dhole Patil is a part of Dhole Patil Education Society, DPES. It is the first college in Pune to offer Undergraduate engineering degrees in Automobile Engineering. Located in natural surroundings in Wagholi, its close proximity is to the Kharadi IT Park.college toppers -samir Ibrahim Shaikh (be civil
+Top engineering college in Pune.
+Dhole Patil College of engineering.
+The best engineering college among the colleges in university with placements.</template></category>
+ </template></category>
+<category><pattern> DEPARTMENT IN DHOLE PATIL COLLEGE OF ENGINERING</pattern><template> Dhole Patil College of Engineering courses:
+Bachelor of Engineering
+First Year Engineering
+Computer Engineering
+Information Technology
+Electronics and Telecommunication Engineering
+Mechanical Engineering
+Automobile Engineering
+Civil Engineering
+Master of Engineering
+VLSI and Embedded Systems
+Heat Power
+Master Computer Engineering
+Design Engineering
+Master of Business Administration</template></category>
+<category><pattern> DTE CODE OF THE COLLEGE?</pattern><template>DTE CODE: EN6307
+Admissions: 099218 22222
+Admissions: 020-66059999 </template></category>
+<category><pattern>CONTACT INFORMATION ABOUT COLLEGE </pattern><template> Admissions: 099218 22222
+Admissions: 020-66059999</template></category>
+<category><pattern> TRAINING AND PLACEMENT CELL	 </pattern><template>Training is provided to students to enhance soft-skills, group discussion and aptitude test capabilities as well as interview techniques. DPCOE has recorded ample placements in a very short span of time . Dhole Patil College of Engineering is consistently placing its students in core companies.All major and big brands like Amazon,Oracle,Tech Mahindra,Siemens,TCS,Persistent,Cognizant,WNS,MUST Garment,Markets and Markets,Zensar,Opus,ECS,Tieto,Mphasis,NTT Data,IBM are there big recruiters.</template></category>
+<category><pattern> COLLEGE WEBSITE </pattern><template>Training is provided to students to enhance soft-skills, group discussion and aptitude test capabilities as well as interview techniques. DPCOE has recorded ample placements in a very short span of time . Dhole Patil College of Engineering is consistently placing its students in core companies.All major and big brands like Amazon,Oracle,Tech Mahindra,Siemens,TCS,Persistent,Cognizant,WNS,MUST Garment,Markets and Markets,Zensar,Opus,ECS,Tieto,Mphasis,NTT Data,IBM are there big recruiters.</template></category>
+<category><pattern>WHAT IS THE ADDRESS OF DHOLEPATIL COLLEGE OF ENGINEERING </pattern><template>Survey No 1284, Near EON IT Park, Dhole Patil College Road, Vitthal Nagar, Kharadi, Pune, Maharashtra 41220</template></category>
+category><pattern>NAME OF THE HOD OF COMPUTER DEPARTMENT </pattern><template>PROF.AMIT ZORE</template></category>
+<category><pattern> YEAR OF FOUNDATION </pattern><template>FOUNDED IN 2008</template></category>
+<category>
+      <pattern>MY FRIEND NAME IS *</pattern>
+      <template>
+         That is interesting that you have a friend named <set name="fname"></set>
+      </template>  
+</category>  
+<category>
+      <pattern>WHAT IS MY FRIEND NAME</pattern>
+      <template>
+         Your friend's name is <get name="fname"/>.
+      </template>  
+</category>  
+</aiml>
